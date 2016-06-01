@@ -1,11 +1,11 @@
 --[[----------------------------------------------------------------------------
--- Duplex.Launchpad 
+-- Duplex.LaunchpadMK2
 ----------------------------------------------------------------------------]]--
 
 duplex_configurations:insert {
 
   -- configuration properties
-  name = "Keyboard2",
+  name = "PushKeyboard",
   pinned = true,
 
   -- device properties
@@ -14,7 +14,7 @@ duplex_configurations:insert {
     display_name = "Launchpad MK2",
     device_port_in = "Launchpad MK2",
     device_port_out = "Launchpad MK2",
-    control_map = "Controllers/LaunchpadMK2/Controlmaps/LaunchpadMK2_Keyboard2.xml",
+    control_map = "Controllers/LaunchpadMK2/Controlmaps/LaunchpadMK2_PushKeyboard.xml",
     thumbnail = "Controllers/LaunchpadMK2/LaunchpadMK2.bmp",
     protocol = DEVICE_PROTOCOL.MIDI,
   },
