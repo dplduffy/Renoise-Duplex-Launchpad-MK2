@@ -21,7 +21,7 @@ duplex_configurations:insert {
 
   applications = {
     KeyboardLarge = {
-      application = "Keyboard",
+      application = "PushKeyboard",
       mappings = {
         key_grid = {
           group_name = "LargeGrid",
